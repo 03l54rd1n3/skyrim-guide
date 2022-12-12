@@ -1,127 +1,572 @@
-<!DOCTYPE html>
-<html class="writer-html5" lang="en" >
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Marius Mertens" />
-      <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Skills - Skyrim Guide</title>
-    <link rel="stylesheet" href="../css/theme.css" />
-    <link rel="stylesheet" href="../css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
     
-      <script>
-        // Current page data
-        var mkdocs_page_name = "Skills";
-        var mkdocs_page_input_path = "skills.md";
-        var mkdocs_page_url = null;
-      </script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Marius Mertens">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
-    <script src="../js/jquery-3.6.0.min.js" defer></script>
-    <!--[if lt IE 9]>
-      <script src="../js/html5shiv.min.js"></script>
-    <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
-</head>
+    
+      
+        <title>Skills - Skyrim Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
 
-<body class="wy-body-for-nav" role="document">
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
-      <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> Skyrim Guide
-        </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
-      </div>
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="None" data-md-color-accent="None">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#skills" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="..">Welcome to MkDocs</a>
-                </li>
-              </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Skills</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#illusion">Illusion</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#conjuration">Conjuration</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#destruction">Destruction</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#restoration">Restoration</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#alteration">Alteration</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#enchanting">Enchanting</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#smithing">Smithing</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#heavy-armor">Heavy Armor</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#block">Block</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#two-handed">Two-Handed</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#one-handed">One-Handed</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#archery">Archery</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#light-armor">Light Armor</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#sneak">Sneak</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#lockpicking">Lockpicking</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#pickpocket">Pickpocket</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#speech">Speech</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#alchemy">Alchemy</a>
-    </li>
-    </ul>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../ingredients/">Ingredients</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../stones/">Standing Stones</a>
-                </li>
-              </ul>
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Skyrim Guide" class="md-header__button md-logo" aria-label="Skyrim Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Skyrim Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Skills
+            
+          </span>
+        </div>
       </div>
     </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">Skyrim Guide</a>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
         
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
       </nav>
-      <div class="wy-nav-content">
-        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Skills</li>
-    <li class="wy-breadcrumbs-aside">
-    </li>
-  </ul>
-  <hr/>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-            <div class="section" itemprop="articleBody">
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
               
-                <h1 id="skills">Skills</h1>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Skyrim Guide" class="md-nav__button md-logo" aria-label="Skyrim Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Skyrim Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Skyrim Guide
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Skills
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Skills
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#illusion" class="md-nav__link">
+    Illusion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conjuration" class="md-nav__link">
+    Conjuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#destruction" class="md-nav__link">
+    Destruction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restoration" class="md-nav__link">
+    Restoration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alteration" class="md-nav__link">
+    Alteration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enchanting" class="md-nav__link">
+    Enchanting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smithing" class="md-nav__link">
+    Smithing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heavy-armor" class="md-nav__link">
+    Heavy Armor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#block" class="md-nav__link">
+    Block
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#two-handed" class="md-nav__link">
+    Two-Handed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#one-handed" class="md-nav__link">
+    One-Handed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archery" class="md-nav__link">
+    Archery
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#light-armor" class="md-nav__link">
+    Light Armor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sneak" class="md-nav__link">
+    Sneak
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lockpicking" class="md-nav__link">
+    Lockpicking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pickpocket" class="md-nav__link">
+    Pickpocket
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speech" class="md-nav__link">
+    Speech
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alchemy" class="md-nav__link">
+    Alchemy
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ingredients/" class="md-nav__link">
+        Ingredients
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stones/" class="md-nav__link">
+        Standing Stones
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#illusion" class="md-nav__link">
+    Illusion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conjuration" class="md-nav__link">
+    Conjuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#destruction" class="md-nav__link">
+    Destruction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restoration" class="md-nav__link">
+    Restoration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alteration" class="md-nav__link">
+    Alteration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enchanting" class="md-nav__link">
+    Enchanting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smithing" class="md-nav__link">
+    Smithing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heavy-armor" class="md-nav__link">
+    Heavy Armor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#block" class="md-nav__link">
+    Block
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#two-handed" class="md-nav__link">
+    Two-Handed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#one-handed" class="md-nav__link">
+    One-Handed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archery" class="md-nav__link">
+    Archery
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#light-armor" class="md-nav__link">
+    Light Armor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sneak" class="md-nav__link">
+    Sneak
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lockpicking" class="md-nav__link">
+    Lockpicking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pickpocket" class="md-nav__link">
+    Pickpocket
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speech" class="md-nav__link">
+    Speech
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alchemy" class="md-nav__link">
+    Alchemy
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="skills">Skills</h1>
 <p>This is an overview of how to level up skills, how to invest your perk points, and some notable skill additions.</p>
 <h2 id="illusion">Illusion</h2>
-<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -151,12 +596,78 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">2920, vol 02 - Sun's Dawn</td>
+<td align="left">Ansilvund: In the Ansilvund Burial Chambers, in the first room after the hallway with pendulum blades, lying on a pedestal</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Darklight Tower: On the fourth floor (Hagraven's Chamber), right before the entrance to the Darklight Chambers</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Markarth, Temple of Dibella: In the inner sanctum on the bottom of the bookshelf, fourth from the right</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Movarth's Lair: On a table between a bed and a shelf full of boots on the northern side of the room</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">River Rapids Treasure Chest (an unmarked location)</td>
+</tr>
+<tr>
+<td align="left">Before the Ages of Man</td>
+<td align="left">Dragonsreach, in the Jarl's quarters on the desk</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Skytemple Ruins, in front of the chest behind the locked door</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Shroud Hearth Barrow, on a stone altar near the entrance</td>
+</tr>
+<tr>
+<td align="left">Incident in Necrom</td>
+<td align="left">Pinemoon Cave, in the back room next to the bed on a table</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Bloodlet Throne, in the locked cell by the alchemy lab</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Shrine of Dibella: Watching Dawnstar (unmarked location), near Dawnstar</td>
+</tr>
+<tr>
+<td align="left">Mystery of Talara, Part 4</td>
+<td align="left">Broken Fang Cave, near the arcane enchanter</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Stony Creek Cave, on a table to the right if the arcane enchanter</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Nepos' House in Markarth, next to a candelabra near the bed in the right-hand side of his home.</td>
 </tr>
 </tbody>
 </table>
 <h2 id="conjuration">Conjuration</h2>
-<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -186,12 +697,120 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">2920, Hearth Fire, v9</td>
+<td align="left">Rimerock Burrow, in the last room to the right, on a table to the left of a bed</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Mortar and Pestle in Dawnstar, behind the counter</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Possible quest reward for completing Hitting the Books given by Urag gro-Shub</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">From the Guardian Stones head back up the hill slightly then head west on the road. It will be off the road on the left 100 feet or so up a dirt path. The book is on an altar. The Conjurer's Altar (unmarked location)</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">The Lost Conjurer (unmarked location)</td>
+</tr>
+<tr>
+<td align="left">2920, Frostfall, v10</td>
+<td align="left">Sunderstone Gorge, In the last room where the Word Wall is</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Belyn Hlaalu's house in Windhelm, behind a dresser upstairs (not the farm outside town)</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Ironbind Barrow, on Beem-Ja's corpse</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">West of Roadside Ruins, on an altar. Sacrificial Altar: Evergreen Woods (unmarked location)</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">The Poultry Reanimator: Lake Geir (unmarked location), on the necromancer</td>
+</tr>
+<tr>
+<td align="left">Liminal Bridges</td>
+<td align="left">Falkreath Watchtower, at the top of the stairs in the tent</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Shalidor's Maze, in the north entrance</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Necromancer's Bluff, on the altar at the side of the dead mage</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Broken Tower Redoubt, on the topmost level of the tower lying on a table up the stairs</td>
+</tr>
+<tr>
+<td align="left">The Doors of Oblivion</td>
+<td align="left">Altar of Xrib, near the Sightless Pit, southwest of Winterhold. This book can be looted from the Skeleton an unlimited number of times</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Fellglow Kee</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Hall of the Dead in Falkreath, under the left bed</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Ilinalta's Deep, in the first room after entering Ilinalta's Deluge. Keep going straight to the wall; it is sitting on a table to the left</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Reachcliff Cave, on a bookshelf, just to the right of the tunnel leading to the altar room</td>
+</tr>
+<tr>
+<td align="left">The Warrior's Charge</td>
+<td align="left">Brittleshin Pass, near the arcane enchanter</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Understone Keep, In the Jarl's bed chamber on a table at the foot of his bed</td>
 </tr>
 </tbody>
 </table>
 <h2 id="destruction">Destruction</h2>
-<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -219,14 +838,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="restoration">Restoration</h2>
-<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -254,14 +887,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="alteration">Alteration</h2>
-<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -289,14 +936,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="enchanting">Enchanting</h2>
-<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-mage">The Mage</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -324,14 +985,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="smithing">Smithing</h2>
-<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -359,14 +1034,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="heavy-armor">Heavy Armor</h2>
-<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -394,14 +1083,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="block">Block</h2>
-<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -429,14 +1132,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="two-handed">Two-Handed</h2>
-<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -464,14 +1181,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="one-handed">One-Handed</h2>
-<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -499,14 +1230,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="archery">Archery</h2>
-<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-warrior">The Warrior</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -534,14 +1279,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="light-armor">Light Armor</h2>
-<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -569,14 +1328,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="sneak">Sneak</h2>
-<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -604,14 +1377,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="lockpicking">Lockpicking</h2>
-<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -639,14 +1426,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="pickpocket">Pickpocket</h2>
-<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -674,14 +1475,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="speech">Speech</h2>
-<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -709,14 +1524,28 @@ Levelling: Cast Muffle near friendly NPCs</p>
 <tbody>
 <tr>
 <td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="alchemy">Alchemy</h2>
-<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a>
-Levelling: Cast Muffle near friendly NPCs</p>
+<p>Standing Stone: <a href="../stones/#the-thief">The Thief</a></p>
+<p>Levelling: Cast Muffle near friendly NPCs</p>
 <table>
 <thead>
 <tr>
@@ -749,50 +1578,99 @@ Levelling: Cast Muffle near friendly NPCs</p>
 </tr>
 </tbody>
 </table>
-              
+<table>
+<thead>
+<tr>
+<th align="left">Book</th>
+<th align="left">Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
             </div>
-          </div><footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Welcome to MkDocs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../ingredients/" class="btn btn-neutral float-right" title="Ingredients">Next <span class="icon icon-circle-arrow-right"></span></a>
-    </div>
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-  </div>
-
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
+          
           
         </div>
-      </div>
-
-    </section>
-
-  </div>
-
-  <div class="rst-versions" role="note" aria-label="Versions">
-  <span class="rst-current-version" data-toggle="rst-current-version">
+        
+      </main>
+      
+        <footer class="md-footer">
+  
     
-    
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
-    
-    
-      <span><a href="../ingredients/" style="color: #fcfcfc">Next &raquo;</a></span>
-    
-  </span>
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Skyrim Guide" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Skyrim Guide
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../ingredients/" class="md-footer__link md-footer__link--next" aria-label="Next: Ingredients" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Ingredients
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme_extra.js" defer></script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
-
-</body>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
 </html>
