@@ -1,6 +1,6 @@
 site_name: Skyrim Guide
 site_author: Marius Mertens
-theme: readthedocs
+theme: material
 nav:
   - index.md
   - skills.md
