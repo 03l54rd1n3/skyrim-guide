@@ -1,1 +1,8 @@
 site_name: Skyrim Guide
+site_author: Marius Mertens
+theme: readthedocs
+nav:
+  - index.md
+  - skills.md
+  - ingredients.md
+  - stones.md
